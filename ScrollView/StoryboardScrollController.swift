@@ -8,13 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class StoryboardScrollController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var scrollView: UIScrollView!
     
-    @IBOutlet weak var textField1: UITextField!
+    @IBOutlet weak var textField1: UITextField?
     
-    @IBOutlet weak var textField2: UITextField!
+    @IBOutlet weak var textField2: UITextField?
     
     
     override func viewDidLoad() {
@@ -22,8 +22,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name:UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name:UIResponder.keyboardWillHideNotification, object: nil)
-        textField1.delegate = self
-        textField2.delegate = self
+        textField1?.delegate = self
+        textField2?.delegate = self
     }
     
     @objc

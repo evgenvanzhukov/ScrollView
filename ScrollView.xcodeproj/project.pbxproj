@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		670569A2296C5C2000BFBE5F /* TextLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670569A1296C5C2000BFBE5F /* TextLoader.swift */; };
+		670569A5296C63B500BFBE5F /* lorem.md in Resources */ = {isa = PBXBuildFile; fileRef = 670569A4296C63B500BFBE5F /* lorem.md */; };
+		67C203D1296C146E00E37AA1 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C203D0296C146E00E37AA1 /* InitialViewController.swift */; };
+		67C203D5296C14EE00E37AA1 /* ManualScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C203D4296C14EE00E37AA1 /* ManualScrollController.swift */; };
 		67DA2FF7291FFAB800A5BA19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA2FF6291FFAB800A5BA19 /* AppDelegate.swift */; };
 		67DA2FF9291FFAB800A5BA19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA2FF8291FFAB800A5BA19 /* SceneDelegate.swift */; };
-		67DA2FFB291FFAB800A5BA19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA2FFA291FFAB800A5BA19 /* ViewController.swift */; };
+		67DA2FFB291FFAB800A5BA19 /* StoryboardScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DA2FFA291FFAB800A5BA19 /* StoryboardScrollController.swift */; };
 		67DA2FFE291FFAB800A5BA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DA2FFC291FFAB800A5BA19 /* Main.storyboard */; };
 		67DA3000291FFABA00A5BA19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67DA2FFF291FFABA00A5BA19 /* Assets.xcassets */; };
 		67DA3003291FFABA00A5BA19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67DA3001291FFABA00A5BA19 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		670569A0296C5BB700BFBE5F /* lorem2.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = lorem2.md; sourceTree = "<group>"; };
+		670569A1296C5C2000BFBE5F /* TextLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLoader.swift; sourceTree = "<group>"; };
+		670569A4296C63B500BFBE5F /* lorem.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = lorem.md; sourceTree = "<group>"; };
+		67C203D0296C146E00E37AA1 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		67C203D4296C14EE00E37AA1 /* ManualScrollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualScrollController.swift; sourceTree = "<group>"; };
 		67DA2FF3291FFAB800A5BA19 /* ScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67DA2FF6291FFAB800A5BA19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67DA2FF8291FFAB800A5BA19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		67DA2FFA291FFAB800A5BA19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67DA2FFA291FFAB800A5BA19 /* StoryboardScrollController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardScrollController.swift; sourceTree = "<group>"; };
 		67DA2FFD291FFAB800A5BA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		67DA2FFF291FFABA00A5BA19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67DA3002291FFABA00A5BA19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,12 +66,17 @@
 			isa = PBXGroup;
 			children = (
 				67DA2FF6291FFAB800A5BA19 /* AppDelegate.swift */,
-				67DA2FF8291FFAB800A5BA19 /* SceneDelegate.swift */,
-				67DA2FFA291FFAB800A5BA19 /* ViewController.swift */,
+				67C203D0296C146E00E37AA1 /* InitialViewController.swift */,
+				67DA2FFA291FFAB800A5BA19 /* StoryboardScrollController.swift */,
+				67C203D4296C14EE00E37AA1 /* ManualScrollController.swift */,
 				67DA2FFC291FFAB800A5BA19 /* Main.storyboard */,
 				67DA2FFF291FFABA00A5BA19 /* Assets.xcassets */,
 				67DA3001291FFABA00A5BA19 /* LaunchScreen.storyboard */,
 				67DA3004291FFABA00A5BA19 /* Info.plist */,
+				67DA2FF8291FFAB800A5BA19 /* SceneDelegate.swift */,
+				670569A0296C5BB700BFBE5F /* lorem2.md */,
+				670569A1296C5C2000BFBE5F /* TextLoader.swift */,
+				670569A4296C63B500BFBE5F /* lorem.md */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -127,6 +141,7 @@
 			files = (
 				67DA3003291FFABA00A5BA19 /* LaunchScreen.storyboard in Resources */,
 				67DA3000291FFABA00A5BA19 /* Assets.xcassets in Resources */,
+				670569A5296C63B500BFBE5F /* lorem.md in Resources */,
 				67DA2FFE291FFAB800A5BA19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67DA2FFB291FFAB800A5BA19 /* ViewController.swift in Sources */,
+				67DA2FFB291FFAB800A5BA19 /* StoryboardScrollController.swift in Sources */,
 				67DA2FF7291FFAB800A5BA19 /* AppDelegate.swift in Sources */,
+				67C203D5296C14EE00E37AA1 /* ManualScrollController.swift in Sources */,
+				670569A2296C5C2000BFBE5F /* TextLoader.swift in Sources */,
 				67DA2FF9291FFAB800A5BA19 /* SceneDelegate.swift in Sources */,
+				67C203D1296C146E00E37AA1 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FA5J36GLF;
 				INFOPLIST_FILE = ScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FA5J36GLF;
 				INFOPLIST_FILE = ScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
